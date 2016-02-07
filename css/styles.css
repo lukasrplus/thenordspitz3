@@ -1,0 +1,60 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(https://s3-eu-west-1.amazonaws.com/nordspitz/thenordspitz/bg/bg2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+body {
+background-color: white;
+
+}
+
+.box {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  max-width: 100%;
+  background:
+   linear-gradient(
+      rgba(192, 16, 8, 0),
+      rgba(192, 16, 8, 0)
+    ),
+    url(https://s3-eu-west-1.amazonaws.com/nordspitz/thenordspitz/bg/alpha/1.png);
+  background-size: cover;
+  height: 700px;
+      position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+
+
+}
+
+.box2 {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  max-width: 100%;
+  background:
+   linear-gradient(
+      rgba(192, 16, 8, 0),
+      rgba(192, 16, 8, 0)
+    ),
+    url(https://s3-eu-west-1.amazonaws.com/nordspitz/thenordspitz/bg/bg2.jpeg);
+  background-size: cover;
+  height: 700px;
+ margin-top: 700px;
+
+}
+
+.big_pic {
+  width: 100%;
+}
+
+.fixed_row {
+  position: fixed;
+  top: 100;
+}
